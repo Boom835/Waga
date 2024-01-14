@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu | Waga</title>
+  <style>
+    /* Center everything */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f2f0e6;
+    }
+    /* Make all borders solid, green, 3px, and 5px border radius */
+    .menu {
+      border: 3px solid green;
+      border-radius: 5px;
+      padding: 20px;
+      width: 80%;
+      background-color: white;
+    }
+    /* Purple background with red text */
+    header {
+      background-color: purple;
+      color: red;
+      padding: 20px;
+      text-align: center;
+    }
+    /* Nav bar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    nav a {
+      color: purple;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    nav a:hover {
+      color: white;
+    }
+    /* Styled logo */
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+      color: purple;
+      text-decoration: none;
+    }
+    .logo:hover {
+      color: white;
+    }
+    /* Menu items */
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .menu-item h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: purple;
+    }
+    .menu-item p {
+      font-size: 20px;
+      color: green;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Waga</h1>
+    <p>A coffee shop that serves the best coffee in town</p>
+  </header>
+  <nav>
+    <a href="#">Waga</a>
+    <a href="#">Menu</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="menu">
+    <div class="menu-item">
+      <h3>Espresso</h3>
+      <p>$2.50</p>
+    </div>
+    <div class="menu-item">
+      <h3>Cappuccino</h3>
+      <p>$3.00</p>
+    </div>
+    <div class="menu-item">
+      <h3>Latte</h3>
+      <p>$3.50</p>
+    </div>
+    <div class="menu-item">
+      <h3>Mocha</h3>
+      <p>$4.00</p>
+    </div>
+  </div>
+</body>
+</html>
